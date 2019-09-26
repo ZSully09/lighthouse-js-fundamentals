@@ -1,4 +1,4 @@
-for (x = 100; x < 201; x++) {
+for (var x = 100; x < 201; x++) {
   if (x % 3 === 0 && x % 4 === 0) {
     console.log("LoopyLighthouse");
   } else {
